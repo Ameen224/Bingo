@@ -1,0 +1,397 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: Bebas Neue, sans-serif;
+    
+}
+header{
+    width: 100%;
+    height: 95px;
+    background-color: black;
+    display: flex;
+
+}
+.header1{
+    width: 150px;
+    height: 85px;
+
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.header2{
+    width: 900px;
+    height: 55px;
+    
+    margin-left: 1px; 
+    padding-top: 40px; 
+    display: inline;
+
+}
+.header2 a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+   position: relative;
+  cursor:pointer;
+    
+}
+
+.header2 a::after{
+    content: '';
+    height: 1px;
+    width: 0%;
+    background: yellow;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transition:  0s;
+}
+.header2 a:hover::after{
+    width: 100px;
+}
+
+.header3{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 150px;
+   
+    
+}
+.header3 a{
+    font-size: x-large;
+    color: white;
+    margin-left: 10px;
+    
+}
+.header3 a i{
+    margin-top: 10px;
+}
+article{
+   width: 100%;
+   height: 750px;
+   text-align:center;
+   background-image: url(https://s7ap1.scene7.com/is/image/itcportalprod/HeroBanner_FC1_Desktop_5120x2880_4x?fmt=webp-alpha);
+}
+article button{
+    width: 120px;
+    height: 40px;
+    margin-top: 670px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #aa1f2e;
+    border: solid #aa1f2e;
+}
+main{
+    width: 100%;
+    height: 110vh;
+    background-color: black
+}
+.main1{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+
+}
+.main1 h2{
+    font-family: Bebas Neue, sans-serif;
+    padding-top: 50px;
+    color: white;
+    letter-spacing: -1px;
+}
+.main1 h4{
+    font-family: Bebas Neue, sans-serif;
+    padding-top: 70px;
+    color: white;
+    letter-spacing: -1px;
+}
+.main1 p{
+    font-family: Bebas Neue, sans-serif;
+    padding-top: 30px;
+    color: white;
+    letter-spacing: -1px;
+
+}
+.main2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    
+}
+.main2 div{
+ width: 33%;
+ height: 300px;
+ margin-left: .3%; 
+ 
+
+}
+.main2 div img{
+    width: 350px;
+    cursor: pointer;
+    
+}
+.main2 div p{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+.mad{
+    width: 100%;
+    height: 119vh;
+    display: flex;
+    background-image: url(https://s7ap1.scene7.com/is/image/itcportalprod/FlavourfulDelight_Background_Desktop_5120x2880_4x?fmt=webp-alpha);
+}
+.mad1{
+    width: 65%;
+    height: 100vh;
+} 
+.mad2{
+    width: 30%;
+    height: 100vh;
+} 
+.mad1 img{
+    width: 85%;
+    margin-left: 50PX;
+}
+.mad2 h3{
+  color: #fcd107;
+  margin-top: 240px;
+}
+.mad2 h2{
+    letter-spacing: -1px;
+    color: white;
+    padding-top: 10px;
+}
+.mad2 p{
+    color: white;
+    padding-top: 10px;
+}
+.mad2 button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 50px;
+    color: #aa1f2e;
+    border: solid #aa1f2e;
+}
+.bin{
+    width: 100%;
+    height: 119vh;
+    display: flex;
+    background-color: black;
+}
+.vid{
+    width: 100%;
+    height: 175vh;
+    background-color: black;
+    background-image: url(https://s7ap1.scene7.com/is/image/itcportalprod/ComedyAdda_Background_Desktop_5120x4692_4x?fmt=webp-alpha);
+}
+.vid1{
+    color: white;
+    text-align: center;
+    padding-top: 380px;
+    
+}
+.vid1 p{
+    margin-top: 20px;
+}
+.vid2{
+    width: 80%;
+    height: 640px;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.vid2 iframe{
+    width: 100%;
+    height: 640px;
+}
+.vid3{
+    width: 100%;
+    text-align: center;
+}
+.vid3 button{
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 50px;
+    color: #aa1f2e;
+    border: solid #aa1f2e;
+  
+}
+ .kno{
+    width: 100%;
+    height: 130vh;
+    text-align: center;
+    background-color: black;
+
+ }
+ .kno1{
+    width: 30%;
+    height: 82vh;
+    background-color:#383838;
+    margin-left: 3%;
+    border-radius: 20px;
+ }
+ .kno h3{
+    padding-top: 50px;
+    color: #fcd107;
+ }
+ .kno2{
+    display: flex;
+    text-align: left;
+    padding-top: 50px;
+ }
+ .kno h2{
+ margin-top: 8px;
+ color: white;
+ }
+ .kno p{
+    font-weight: 600;
+    margin-top: 6px;
+    color: white;
+ }
+ .kno1 img{
+    width: 100%;
+    height: 410px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+ }
+ .kno p{
+    margin-top: 15px;
+    margin-left: 20px;
+ }
+ .kno h4{
+    margin-top: 20px;
+    color: white;
+    margin-left: 20px;
+ }
+ .kno button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 50px;
+    color: #aa1f2e;
+    border: solid #aa1f2e;
+    font-weight: 800;
+
+ }
+ .kno3{
+    width: 30%;
+    height: 80vh;
+    background-color:#383838;
+    margin-left: 3%;
+    border-radius: 25px;
+ }
+ .kno3 div{
+    width: 90%;
+    height: 85%;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: left;
+ }
+  nav{
+    width: 100%;
+    height:50px;
+    display: flex;
+  }
+  
+  nav h2{
+    padding-left: 15px;
+    color: aliceblue;
+  }
+  nav i{
+    font-size: xx-large;
+    margin-left: 207px;
+    color: white;
+    margin-top: 10px;
+  }
+  .mention{
+    width: 100px;
+
+  }
+  .mention h3{
+        color: white;
+        margin-top: -80px;
+        margin-left: 82px;
+    }
+    .mention p{
+        width: 100%;
+        margin-left:-20px ;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+    .kno3 img{
+        width: 100%;
+        margin-top: -250px;
+        border-radius: 20px;
+    }
+    .image1{
+        width: 90px;
+        height: 50px;
+        margin-left: -5px;
+        padding-top: 250px;
+        }
+    .follo{
+        width:100%;
+        height: 40px;
+        margin-top: 100px;
+        display: flex;
+        text-align: center;
+    }
+    .follo a{
+        color: white;
+        font-size: x-large;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    .follo h2{
+        margin-left: 40%;
+    }
+    .footer{
+        width: 100%;
+        height: 280px;
+        background-color: black;
+        border-top: 1px solid #383838;
+        display: flex;
+
+    }
+    .footer1{
+        width: 150px;
+        height: 150px;
+        margin-left: 230px;
+        margin-top: 80px;
+        border-right: 1px solid #383838;
+        color: white;
+    }
+    .footer2{
+        padding-top: 30px;
+    }
+    .footer3{
+        width: 150px;
+        height: 150px;
+        margin-top: 80px;
+        margin-left: 30px;
+        border-right: 1px solid #383838;
+        color: white;
+    }
+    .footer4{
+        width: 150px;
+        height: 150px;
+        margin-top: 80px;
+        margin-left: 30px;
+        color: white;
+    }
